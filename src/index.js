@@ -14,7 +14,7 @@ ReactDOM.render((
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={App} />
-      <Route exact path="/coffee" component={CoffeeDisplay} />
+      <Route exact path="/ships/rocinante/coffee" component={CoffeeDisplay} />
     </Switch>
   </BrowserRouter>
 ), document.getElementById('root'));

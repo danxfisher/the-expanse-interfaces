@@ -17,37 +17,28 @@ class MainRight extends Component {
   incrementCount = () => {
     if(this.state.count < 9) {
       this.setState({
-        count: this.state.count + 1
-      }, () => this.handlePlural());
-    }
-    else {
-      this.setState({
-        count: 1
-      }, () => this.handlePlural());
-    }
-  }
-
-  decrementCount = () => {
-    if(this.state.count > 1) {
-      this.setState({
-        count: this.state.count - 1
-      }, () => this.handlePlural());
-    }
-    else {
-      this.setState({
-        count: 1
-      }, () => this.handlePlural());
-    }
-  }
-
-  handlePlural = () => {
-    if(this.state.count > 1) {
-      this.setState({
+        count: this.state.count + 1,
         plural: true
       });
     }
     else {
       this.setState({
+        count: 1,
+        plural: false
+      });
+    }
+  }
+
+  decrementCount = () => {
+    if(this.state.count > 2) {
+      this.setState({
+        count: this.state.count - 1,
+        plural: true
+      });
+    }
+    else {
+      this.setState({
+        count: 1,
         plural: false
       });
     }
