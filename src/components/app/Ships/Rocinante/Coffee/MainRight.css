@@ -1,0 +1,56 @@
+#roci__coffee main .right-item {
+  background: linear-gradient(white,#bebebe);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  padding: 25px 0;
+  margin: 10px 5px;
+}
+
+#roci__coffee main .right-item .arrow-up,
+#roci__coffee main .right-item .arrow-down {
+  height: 20%;
+}
+
+#roci__coffee main .right-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  line-height: 1;
+}
+
+#roci__coffee main .right-item .icon:hover {
+  cursor: pointer;
+}
+
+#roci__coffee main .right-item .cup-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+}
+
+#roci__coffee main .right-item .cup-col {
+  height: 100%;
+}
+
+#roci__coffee main .right-item .cup {
+  height: 100%;
+}
+
+#roci__coffee main .right-item .cup-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+  width: 250px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+#roci__coffee main .right-item .cup-body .cup-text h1 {
+  font-size: 64px;
+}

@@ -1,0 +1,72 @@
+#roci__coffee main .left-item {
+  text-align: center;
+  font-size: 36px;
+  padding: 25px 0;
+  margin: 10px 5px;
+}
+
+#roci__coffee main .start {
+  background: linear-gradient(#eeeeee,#32B8BF);
+}
+
+#roci__coffee main .beans {
+  background: linear-gradient(#f2d1b2,#df8c40);
+}
+
+#roci__coffee main .circle-col,
+#roci__coffee main .beans-col {
+  height: 100%;
+}
+
+#roci__coffee main .circle-wrap,
+#roci__coffee main .beans-wrap {
+  display: flex;
+  flex-drection: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#roci__coffee main .circle-margin {
+  margin: auto 30px;
+}
+
+#roci__coffee main .circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  border-radius: 100%;
+  text-transform: uppercase;
+  font-size: 52px;
+}
+
+#roci__coffee main .beans-border {
+  margin: auto 20px;
+  border: 10px solid #ffee88;
+}
+
+#roci__coffee main .beans-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  font-size: 52px;
+}
+
+#roci__coffee main .left-item .row {
+  height: 100%;
+}
+
+@media screen and (max-width: 740px) {
+  #roci__coffee main .row .left-item .circle {
+    height: 200px;
+    width: 200px;
+  }
+}

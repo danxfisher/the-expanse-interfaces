@@ -1,0 +1,28 @@
+#roci__coffee footer {
+  height: 20%;
+}
+
+#roci__coffee footer .row {
+  height: 100%;
+}
+
+#roci__coffee footer .footer-item {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  background: white;
+  padding: 25px 0;
+  margin: 0 5px;
+}
+
+#roci__coffee footer .footer-item--waterdrop {
+  color: #32B8BF;
+}
+
+#roci__coffee footer .footer-icon,
+#roci__coffee footer .footer-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
