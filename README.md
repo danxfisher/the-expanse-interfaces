@@ -16,5 +16,5 @@ $ npm install
 3. Once that completes, type:
 
 ```
-npm start
+$ npm start
 ```
