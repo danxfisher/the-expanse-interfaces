@@ -1,4 +1,6 @@
-# Coffee
+# Rocinanted - Coffee Machine
+
+Here is my somewhat functioning interpretation of the Rocinante's beloved coffee machine.
 
 ## TV Images:
 
