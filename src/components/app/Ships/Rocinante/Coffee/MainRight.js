@@ -9,22 +9,19 @@ class MainRight extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      count: 1,
-      plural: false
+      count: 1
     }
   }
 
   incrementCount = () => {
     if(this.state.count < 9) {
       this.setState({
-        count: this.state.count + 1,
-        plural: true
+        count: this.state.count + 1
       });
     }
     else {
       this.setState({
-        count: 1,
-        plural: false
+        count: 1
       });
     }
   }
@@ -32,20 +29,18 @@ class MainRight extends Component {
   decrementCount = () => {
     if(this.state.count > 2) {
       this.setState({
-        count: this.state.count - 1,
-        plural: true
+        count: this.state.count - 1
       });
     }
     else {
       this.setState({
-        count: 1,
-        plural: false
+        count: 1
       });
     }
   }
 
   render() {
-    const {count, plural} = this.state;
+    const { count } = this.state;
 
     return (
       <Col className="right-item">
@@ -60,7 +55,7 @@ class MainRight extends Component {
               <div className="cup-body">
                 <div className="cup-text">
                   <h1>{count}</h1>
-                  <p>Cup{plural ? 's' : ''}</p>
+                  <p>Cup{count > 1 ? 's' : ''}</p>
                 </div>
               </div>
             </div>
