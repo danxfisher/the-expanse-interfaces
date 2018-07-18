@@ -14,29 +14,11 @@ class MainRight extends Component {
   }
 
   incrementCount = () => {
-    if(this.state.count < 9) {
-      this.setState({
-        count: this.state.count + 1
-      });
-    }
-    else {
-      this.setState({
-        count: 1
-      });
-    }
+    this.state.count < 9 ? this.setState({count: this.state.count + 1}) : this.setState({count: 1});
   }
 
   decrementCount = () => {
-    if(this.state.count > 2) {
-      this.setState({
-        count: this.state.count - 1
-      });
-    }
-    else {
-      this.setState({
-        count: 1
-      });
-    }
+    this.state.count > 2 ? this.setState({count: this.state.count - 1}) : this.setState({count: 1});
   }
 
   render() {
