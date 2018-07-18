@@ -13,6 +13,10 @@
   background: linear-gradient(#f2d1b2,#df8c40);
 }
 
+#roci__coffee main .left-item .icon svg:hover {
+  cursor: pointer;
+}
+
 #roci__coffee main .circle-col,
 #roci__coffee main .beans-col {
   height: 100%;

@@ -20,7 +20,7 @@
   line-height: 1;
 }
 
-#roci__coffee main .right-item .icon:hover {
+#roci__coffee main .right-item .icon svg:hover {
   cursor: pointer;
 }
 

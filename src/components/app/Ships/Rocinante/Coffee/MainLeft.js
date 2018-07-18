@@ -29,7 +29,7 @@ class MainLeft extends Component {
       <Col xs={7} className={'left-item ' + (showBeansScreen ? 'beans' : 'start')}>
         {!showBeansScreen ?
           <Row className="align-items-stretch circle-margin">
-            <Col className="align-self-center">
+            <Col className="icon align-self-center">
               <Icon size={140} icon={arrowLeftB} onClick={this.toggle} />
             </Col>
             <Col xs={6} className="circle-col align-self-center">
@@ -39,13 +39,13 @@ class MainLeft extends Component {
                 </div>
               </div>
             </Col>
-            <Col className="align-self-center">
+            <Col className="icon align-self-center">
               <Icon size={140} icon={arrowRightB} onClick={this.toggle} />
             </Col>
           </Row>
         :
           <Row className="align-items-stretch beans-border">
-            <Col className="align-self-center">
+            <Col className="icon align-self-center">
               <Icon size={140} icon={arrowLeftB} onClick={this.toggle} />
             </Col>
             <Col xs={6} className="beans-col align-self-center">
@@ -55,7 +55,7 @@ class MainLeft extends Component {
                 </div>
               </div>
             </Col>
-            <Col className="align-self-center">
+            <Col className="icon align-self-center">
               <Icon size={140} icon={arrowRightB} onClick={this.toggle} />
             </Col>
           </Row>
