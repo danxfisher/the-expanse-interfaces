@@ -7,7 +7,7 @@ class LeftSideBar extends Component {
 
   render() {
     return (
-      <Col xs="2" className="col-tester">
+      <Col xs="2" className="left">
         <div className="left--header">
           Something Something Something
         </div>
