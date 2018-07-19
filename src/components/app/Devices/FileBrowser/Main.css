@@ -1,0 +1,20 @@
+#dev__file-browser--mao .main {
+
+}
+
+#dev__file-browser--mao .main--separator {
+  width: 90%;
+  height: 3px;
+  background-color: rgba(255,255,255, 0.6);
+  margin-bottom: 15px;
+}
+
+#dev__file-browser--mao .main--separator-circle {
+  position: absolute;
+  background: black;
+  margin-top: -7px;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  border: 3px solid rgba(255,255,255, 0.6);
+}
