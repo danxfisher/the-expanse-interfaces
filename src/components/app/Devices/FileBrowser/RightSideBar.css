@@ -1,3 +1,45 @@
-#dev__file-browser--mao .col-tester3 {
-  background-color: blue;
+#dev__file-browser--mao .right {
+
+}
+
+#dev__file-browser--mao .right-item {
+  height: 65px;
+  width: 100%;
+  border: 1px solid rgba(255,255,255, 0.6);
+  padding: 10px 30px;
+}
+
+#dev__file-browser--mao .right-item--first {
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+}
+
+#dev__file-browser--mao .right-item--separator {
+  margin: 3px 0;
+  height: 3px;
+  width: 100%;
+  background-color: rgba(255,255,255, 0.6);
+}
+
+#dev__file-browser--mao .right-item--bulk {
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#dev__file-browser--mao .right-item--last {
+  border-radius: 50px;
+  border-top-left-radius: 0;
+}
+
+#dev__file-browser--mao .green-bg {
+  background-color: rgba(60,126,64,.8);
+}
+
+#dev__file-browser--mao .mustard-bg {
+  background-color: rgba(195,173,83,0.8);
+}
+
+#dev__file-browser--mao .blue-bg {
+  background-color: rgba(23,115,141,0.8);
 }
